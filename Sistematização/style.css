@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.container_introducao {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(73, 77, 73, 0.985);
+  color: rgb(190, 194, 180);
+  border: 10 solid black;
+}
+.card_introducao {
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(73, 77, 73);
+  transition: 0.25s;
+}
+.card_introducao:hover {
+  transform: translateY(-10px);
+}
+.imagem1 {
+  width: 500px;
+  border-radius: 10px;
+}
+.texto_introducao {
+  width: 475px;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+.texto_introducao h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+}
+.texto_introducao p {
+  font-size: 19px;
+  font-family: "Roboto";
+  padding-right: 20px;
+}
+
+.container_produtos {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(79, 224, 60, 0.74);
+}
+.cards_produtos {
+  display: flex;
+  width: 475px;
+  background-color: rgba(57, 160, 44, 0.664);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  transition: 0.25s;
+}
+.cards_produtos:hover {
+  transform: translateY(-15px);
+}
+.cards_produtos h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Roboto";
+}
+
+.cards_produtos p {
+  font-size: 15px;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+}
+.divprodutos {
+  padding: 10px;
+}
+
+.produtobike {
+  width: 300px;
+  border-radius: 10px;
+}
+.container_equipe {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(204, 235, 200, 0.959);
+}
+.cards_equipe:hover {
+  transform: translateY(-15px);
+}
+.cards_equipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  background-color: rgba(194, 233, 188, 0.418);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  transition: 0.25s;
+  flex-direction: column;
+  gap: 10px;
+}
+.texto_equipe {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.divequipe {
+  padding: 10px;
+}
+.imgequipe {
+  width: 150px;
+  border-radius: 50%;
+}
+.formulario {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+
+  background-color: rgba(233, 250, 233, 0.959);
+}
+.textoformulario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-top: 40px;
+}
+.formulario_sec label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+}
+span {
+  padding-bottom: 15px;
+  font-size: 25px;
+
+  font-family: "Roboto";
+}
+.formulario_sec label input {
+  text-align: center;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 30px;
+}
+
+.formulario_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  background-color: rgb(185, 243, 185);
+  width: 50vh;
+  height: 70vh;
+  border-radius: 10px;
+}
+.area_formulario {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.985);
+}
+.sobre {
+  display: flex;
+  padding-left: 40px;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+.sobre p {
+  font-size: 15px;
+
+  font-family: "Poppins";
+  color: rgb(157, 247, 146);
+}
+
+.sobre h1 {
+  font-size: 30px;
+  color: rgb(204, 252, 198);
+  padding-top: 20px;
+  font-family: "Roboto";
+}
+.sobre h2 {
+  font-size: 15px;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+}
+.pagina {
+  display: flex;
+  padding-right: 40px;
+  flex-direction: column;
+  color: rgb(204, 252, 198);
+  font-size: 10px;
+  gap: 15px;
+}
+
+.butao {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(120, 218, 107);
+}
